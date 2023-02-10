@@ -141,7 +141,7 @@ class MainActivity : AppCompatActivity() {
 
     fun retriveRepos() {
 
-        val progress = findViewById<ContentLoadingProgressBar>(R.id.progress_id)  // ??
+        val progress = findViewById<ContentLoadingProgressBar>(R.id.progress_id)
 
         lifecycleScope.launch {
             try {
